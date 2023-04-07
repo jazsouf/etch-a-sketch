@@ -5,15 +5,41 @@
 }
 
 body {
-    background-color: teal;
+    background-color: lightcoral;
+}
+
+h1 {
+    margin: 3rem auto;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    color: brown;
 }
 
 #container {
-    margin: 7em auto;
+    margin: 2em auto 2em;
     display: flex;
     flex-wrap: wrap;
     aspect-ratio: 1 / 1;
     justify-content: flex-start;
     align-items: flex-start;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    box-shadow: #00000029 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+button {
+    margin: 2em auto 2em;
+    font-weight: 700;
+    width: 100px;
+    padding: 0.5rem 1.5rem;
+    aspect-ratio: 2.5 / 1;
+    background-color: lightgreen;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rainbow-button {
+    background-color: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,255,51,1) 50%, rgba(16,0,255,1) 100%);
+    color: whitesmoke;
 }
